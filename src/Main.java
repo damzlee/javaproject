@@ -13,7 +13,7 @@ public class Main {
        System.out.println("1. LOG IN AS LIBRARIAN \n" +
                "2. LOG IN AS STUDENT");
        int select = Integer.parseInt(choice.nextLine());
-
+        
        switch (select){
            case 1:
                System.out.println("Login as a Librarian");
